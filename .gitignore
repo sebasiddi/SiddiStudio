@@ -1,17 +1,9 @@
-# Ignora archivos del sistema Mac 
 .DS_store
 
-# Ignora la carpeta node_modules
-css
-static
-templates
+/css/
+/static/
+/templates/
+/sass/*.scss
+/sass/*.map
+mockup.pdf
 
-
-# Ignora todos los archivos de texto
-*.txt
-
-# Ignora los archivos relacionados a API keys
-.env
-
-# Ignora archivos de configuración SASS
-.sass-cache
