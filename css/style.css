@@ -1,0 +1,52 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@100;300;600;900&display=swap');
+/* CSS HEX */
+/* CSS HSL */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(214, 199, 35);
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Heebo', sans-serif;}
+
+a{text-decoration: none;
+color: black;}
+
+header{
+  position: sticky;
+  display: flex;
+  justify-content: center;
+}
+
+header .titulo{
+  font-size: 12rem;
+  text-transform: uppercase;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container a{
+  border: 5px solid grey;
+  background-color: beige;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.container a:hover{
+  background-color: rgb(48, 120, 201);
+  }
+
+.container a h2{
+  font-size: 5rem;
+  text-transform: uppercase;
+}
